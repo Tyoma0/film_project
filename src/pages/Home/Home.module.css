@@ -1,0 +1,34 @@
+.container {
+    padding: 2rem;
+}
+
+.title {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.error {
+    color: red;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: #ffe6e6;
+}
+
+.HFinder{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+}
