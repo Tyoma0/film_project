@@ -4,6 +4,7 @@
     overflow: hidden;
     transition: transform 0.2s;
     position: relative;
+    height: 480px;
 }
 
 .card:hover {
@@ -22,9 +23,10 @@
 }
 
 .title {
-    padding: 0.5rem;
+
     margin: 0;
     font-size: 1rem;
+    color: #fdfdfe;
 }
 
 .favoriteButton {
@@ -37,4 +39,21 @@
     font-size: 1.5rem;
     padding: 0.5rem;
     z-index: 1;
+}
+
+.year{
+    color: #fdfdfe;
+
+}
+.cardDiv{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.genres{
+    display: flex;
+    justify-content: space-evenly;
+    color: #765681;
 }

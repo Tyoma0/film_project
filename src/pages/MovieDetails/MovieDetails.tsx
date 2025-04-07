@@ -57,7 +57,7 @@ const MovieDetails: React.FC = () => {
                 <img
                     src={
                         movie.poster_path
-                            ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+                            ? `/images/movies.jpg`
                             : '/placeholder.jpg'
                     }
                     alt={movie.title}

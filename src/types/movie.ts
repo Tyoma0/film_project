@@ -1,4 +1,7 @@
-export interface Movie {
+
+
+
+export type Movie ={
     id: number;
     title: string;
     poster_path: string | null;
@@ -8,7 +11,7 @@ export interface Movie {
     genre_ids?: number[];
 }
 
-export interface MovieDetails extends Movie {
+export type MovieDetails ={
     videos?: {
         results: Video[];
     };
@@ -19,12 +22,14 @@ export interface MovieDetails extends Movie {
     runtime?: number;
 }
 
-export interface Video {
+
+export type Video ={
     key: string;
     type: string;
 }
 
-export interface Genre {
+
+export type Genre ={
     id: number;
     name: string;
 }
